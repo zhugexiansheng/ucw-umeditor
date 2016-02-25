@@ -5,7 +5,7 @@
 
 (function () {
     //umeditor的相对项目路径
-    var URL = "/components/meta.umeditor/lib/";
+    var URL = "/components/ucw-umeditor/lib/";
 
     /**
      * 配置项主体。注意，此处所有涉及到路径的配置别遗漏URL变量。
