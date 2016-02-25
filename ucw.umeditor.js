@@ -20,9 +20,10 @@ angular.module('ucw.umeditor', [])
                 var _dom = element[0];
 
                 var _id = '_' + Math.floor(Math.random() * 100).toString() + new Date().getTime().toString();
+                var _placeholderText = attr.ucwUmeditorPlaceholder || "请输入内容";
 
                 var _placeholder = '<p style="font-size:14px;color:#ccc;">' +
-                    attr.metaUmeditorPlaceholder +
+                    _placeholderText +
                     '</p>';
 
                 var _config = scope.config || {
