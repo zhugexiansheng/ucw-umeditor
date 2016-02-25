@@ -26,16 +26,7 @@ angular.module('ucw.umeditor', [])
                     _placeholderText +
                     '</p>';
 
-                var _config = scope.config || {
-                        //focus时自动清空初始化时的内容
-                        autoClearinitialContent: true,
-                        //关闭字数统计
-                        wordCount: false,
-                        //关闭elementPath
-                        elementPathEnabled: false,
-                        //frame高度
-                        initialFrameHeight: 300
-                    };
+                var _config = scope.config || {};
 
                 _dom.setAttribute('id', _id);
 
