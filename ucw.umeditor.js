@@ -1,5 +1,9 @@
 /**
- * Created by dylike.
+ * ucw.umeditor
+ *
+ * @description: angular with umeditor
+ * @author: xiaoming
+ * @date: 2016/02/25
  */
 
 angular.module('ucw.umeditor', [])
@@ -99,9 +103,8 @@ angular.module('ucw.umeditor', [])
                         _umeditor.setContent(_placeholder);
                     } else {
                     }
-                })
-
+                });
             }
-        }
+        };
     });
 

@@ -1,0 +1,22 @@
+{
+  "name": "ucw-umeditor",
+  "description": "umeditor create with angularjs",
+  "main": "ucw.umeditor.config.js,ucw.umeditor.js",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "umeditor"
+  ],
+  "authors": [
+    "xiaoming"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zhugexiansheng/ucw-umeditor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
